@@ -25,8 +25,8 @@ cc_test {
         "libcrypto",
     ],
     static_libs: [
-        "android.hardware.security.keymint-V1-ndk_platform",
-        "android.hardware.security.secureclock-V1-ndk_platform",
+        "android.hardware.security.keymint-unstable-ndk_platform",
+        "android.hardware.security.secureclock-unstable-ndk_platform",
         "libcppbor_external",
         "libcppcose_rkp",
         "libjsoncpp",
@@ -80,14 +80,8 @@ cc_test {
         "VtsRemotelyProvisionedComponentTests.cpp",
     ],
     static_libs: [
-        "libgmock_ndk",
-        "libkeymaster_portable",
-        "libkeymint_vts_test_utils",
-        "libpuresoftkeymasterdevice",
-    ],
-    test_config: "VtsRemotelyProvisionedComponentTests.xml",
-    test_suites: [
-        "general-tests",
-        "vts",
+        "android.hardware.security.keymint-unstable-ndk_platform",
+        "android.hardware.security.secureclock-unstable-ndk_platform",
+        "libcppbor",
     ],
 }
