@@ -23,8 +23,6 @@ cc_test {
     shared_libs: [
         "libbinder_ndk",
         "libcrypto",
-    ],
-    static_libs: [
         "android.hardware.security.keymint-unstable-ndk_platform",
         "android.hardware.security.secureclock-unstable-ndk_platform",
         "libcppbor_external",

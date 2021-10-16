@@ -24,8 +24,6 @@ cc_defaults {
     shared_libs: [
         "audioclient-types-aidl-unstable-cpp",
         "libaudioclient_aidl_conversion",
-    ],
-    shared_libs: [
         "libbinder",
         "libfmq",
         "libxml2",
