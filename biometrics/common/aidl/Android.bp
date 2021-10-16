@@ -12,5 +12,6 @@ aidl_interface {
         cpp: {
             enabled: false,
         },
-    }
+    },
+    versions: ["1"],
 }
