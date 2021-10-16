@@ -34,25 +34,6 @@ cc_test {
     ],
 }
 
-cc_test {
-    name: "VtsAidlKeyMintTargetTest",
-    defaults: [
-        "keymint_vts_defaults",
-    ],
-    srcs: [
-        "AttestKeyTest.cpp",
-        "DeviceUniqueAttestationTest.cpp",
-        "KeyMintTest.cpp",
-    ],
-    static_libs: [
-        "libkeymint_vts_test_utils",
-    ],
-    test_suites: [
-        "general-tests",
-        "vts",
-    ],
-}
-
 cc_test_library {
     name: "libkeymint_vts_test_utils",
     defaults: [
