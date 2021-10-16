@@ -21,7 +21,6 @@ cc_test {
     ],
     shared_libs: [
         "libbinder_ndk",
-        "android.hardware.biometrics.fingerprint-ndk_platform",
     ],
     test_suites: [
         "general-tests",
