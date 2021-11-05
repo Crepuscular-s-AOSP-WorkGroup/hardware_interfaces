@@ -30,6 +30,8 @@ cc_defaults {
         "android.hardware.audio.common.test.utility",
         "audioclient-types-aidl-cpp",
         "libaudioclient_aidl_conversion",
+    ],
+    shared_libs: [
         "libbinder",
         "libfmq",
         "libxml2",
